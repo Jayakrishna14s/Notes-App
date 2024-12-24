@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="25dp"
+    android:fontFamily="@font/titillium"
+    android:background="@drawable/note_bg"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:fontFamily="@font/titillium"
+        android:id="@+id/titleTextView"/>
+
+    <TextView
+        android:id="@+id/contentTextView"
+        android:maxLines="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/titillium"
+        android:layout_marginTop="4dp" />
+
+</LinearLayout>
