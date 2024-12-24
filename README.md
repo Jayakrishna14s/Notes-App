@@ -1,2 +1,2 @@
 # Notes-App
-Android Studio - Java  (SharedPreferences)
+Android Studio - Java  (SharedPreferences, Mobile Application)
